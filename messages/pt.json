@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "title": "João Matos",
+    "description": "exemplo"
+  },
+  "NavbarLinks": {
+    "home": "Início",
+    "work": "Trabalho",
+    "about": "Sobre"
+  }
+}
