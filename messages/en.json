@@ -1,11 +1,46 @@
 {
   "HomePage": {
-    "title": "João Matos",
-    "description": "example"
+    "title": "Work Projects",
+    "description": "João Matos Selected Work Projects",
+    "h1": " ux/ui developer from Brazil focused on creating user-centered digital experiences — currently avaiable for work."
   },
   "NavbarLinks": {
     "home": "Home",
     "work": "Work",
     "about": "About"
+  },
+  "projects": {
+    "link": "More Info",
+    "portfolio": {
+      "name": "Personal Portfolio",
+      "description": "My personal portfolio website"
+    },
+    "reverb": {
+      "name": "Reverb Music Client",
+      "description": "A spotify client with new features"
+    }
+  },
+  "tags": {
+    "branding": "Branding",
+    "ux": "UX",
+    "prototyping": "Prototyping",
+    "programming": "Programming"
+  },
+  "skills": {
+    "soft": "Soft Skills",
+    "design": "Design Skills",
+    "technical": "Technical Skills",
+    "education": "Education",
+    "educationip": "Education In Progress",
+    "team": "Team Working",
+    "comm": "Communication",
+    "ps": "Problem Solving",
+    "creativity": "Creativity",
+    "sm": "Self Motivation",
+    "we": "Work Ethic",
+    "typography": "Typography",
+    "research": "Research",
+    "uu": "UI/UX",
+    "branding": "Branding"
   }
 }

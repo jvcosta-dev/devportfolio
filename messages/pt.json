@@ -1,11 +1,46 @@
 {
   "HomePage": {
-    "title": "João Matos",
-    "description": "exemplo"
+    "title": "Projetos de Trabalho",
+    "description": "Projetos Selecionados de João Matos",
+    "h1": "Desenvolvedor UX/UI do Brasil focado em criar experiências digitais centradas no usuário — atualmente disponível para trabalho."
   },
   "NavbarLinks": {
     "home": "Início",
     "work": "Trabalho",
     "about": "Sobre"
+  },
+  "projects": {
+    "link": "Ler Mais",
+    "portfolio": {
+      "name": "Portfolio Pessoal",
+      "description": "Meu website de portfolio pessoal"
+    },
+    "reverb": {
+      "name": "Cliente de Música Reverb",
+      "description": "Um cliente spotify com novas funcionalidades"
+    }
+  },
+  "tags": {
+    "branding": "Marca",
+    "ux": "UX",
+    "prototyping": "Prototipagem",
+    "programming": "Programação"
+  },
+  "skills": {
+    "soft": "Habilidades Interpessoais",
+    "design": "Habilidades de Design",
+    "technical": "Habilidades Técnicas",
+    "education": "Educação",
+    "educationip": "Educação Em Andamento",
+    "team": "Trabalho em Equipe",
+    "comm": "Comunicação",
+    "ps": "Resolução de Problemas",
+    "creativity": "Criatividade",
+    "sm": "Autodisciplina",
+    "we": "Ética de Trabalho",
+    "typography": "Tipografia",
+    "research": "Pesquisa",
+    "uu": "UI/UX",
+    "branding": "Branding"
   }
 }
