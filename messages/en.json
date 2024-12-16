@@ -7,7 +7,8 @@
   "NavbarLinks": {
     "home": "Home",
     "work": "Work",
-    "about": "About"
+    "about": "About",
+    "contact-call": "Get In Touch"
   },
   "projects": {
     "link": "More Info",
@@ -41,6 +42,10 @@
     "typography": "Typography",
     "research": "Research",
     "uu": "UI/UX",
-    "branding": "Branding"
+    "branding": "Branding",
+    "cybersecurity": "Cybersecurity Google Career Certificates",
+    "uxdesign": "UX Design Google Career Certificates",
+    "softwareeng": "Software Engineering Unicesumar",
+    "computert": "Computer Technician for Internet Jul 2024 FIEC"
   }
 }

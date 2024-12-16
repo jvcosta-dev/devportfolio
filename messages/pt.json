@@ -2,12 +2,13 @@
   "HomePage": {
     "title": "Projetos de Trabalho",
     "description": "Projetos Selecionados de João Matos",
-    "h1": "Desenvolvedor UX/UI do Brasil focado em criar experiências digitais centradas no usuário — atualmente disponível para trabalho."
+    "h1": "Desenvolvedor UX/UI focado em criar experiências digitais centradas no usuário — atualmente disponível para trabalho."
   },
   "NavbarLinks": {
     "home": "Início",
     "work": "Trabalho",
-    "about": "Sobre"
+    "about": "Sobre",
+    "contact-call": "Entre em Contato"
   },
   "projects": {
     "link": "Ler Mais",
@@ -41,6 +42,10 @@
     "typography": "Tipografia",
     "research": "Pesquisa",
     "uu": "UI/UX",
-    "branding": "Branding"
+    "branding": "Branding",
+    "cybersecurity": "Cybersecurity Google Career Certificates",
+    "uxdesign": "UX Design Google Career Certificates",
+    "softwareeng": "Engenharia de Software Unicesumar",
+    "computert": "Técnico Informática para Internet Jul 2024 FIEC"
   }
 }

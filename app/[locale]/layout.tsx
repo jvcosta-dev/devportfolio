@@ -4,8 +4,9 @@ import { getMessages } from "next-intl/server";
 import { routing } from "../../i18n/routing";
 
 import "../globals.css";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/ui/Navbar";
 import NotFound from "../not-found";
+import Footer from "../../components/ui/Footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <Navbar />
       {children}
+      <Footer />
     </NextIntlClientProvider>
   );
 }
