@@ -1,8 +1,9 @@
 export interface Project {
   id: number;
   imageUrl: string;
-  nameKey: string;
-  descriptionKey: string;
+  name: string;
   href: string;
   tags: string[];
+  bgColor: string;
+  color?: string;
 }
