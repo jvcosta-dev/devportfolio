@@ -26,7 +26,7 @@ const ChangeLanguageSelect: FunctionComponent<
 
   return (
     <select
-      className="w-max outline-none aselect-none p-2 bg-background hover:bg-slate-200 focus:outline-primary rounded-lg"
+      className="w-max outline-none aselect-none p-2 bg-background hover:bg-slate-200 rounded-lg"
       onChange={handleLanguageChange}
       value={locale}
       aria-label="content language selector"

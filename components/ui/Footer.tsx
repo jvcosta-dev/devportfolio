@@ -2,12 +2,13 @@ import { FunctionComponent } from "react";
 import { Link } from "../../i18n/routing";
 import Image from "next/image";
 import { Github, Mail, Phone } from "lucide-react";
+import ChangeLanguageSelect from "../ChangeLanguageSelect";
 
 interface FooterProps {}
 
 const Footer: FunctionComponent<FooterProps> = () => {
   return (
-    <footer className="w-full flex flex-col gap-4 justify-between px-6 xl:px-24 pt-4 pb-2 bg-background">
+    <footer className="w-full flex flex-col gap-4 justify-between px-6 pt-4 pb-2 bg-background">
       <div className="flex items-center justify-between">
         <div className="flex gap-4">
           <a
@@ -34,16 +35,7 @@ const Footer: FunctionComponent<FooterProps> = () => {
             <Phone />
           </a>
         </div>
-        <Link href={`/`}>
-          <Image
-            priority
-            src="/logo.png"
-            alt="jm (joão matos) logo"
-            className=""
-            width={54}
-            height={46}
-          />
-        </Link>
+        <ChangeLanguageSelect />
       </div>
       <div className="w-full h-[2px] bg-foreground/60" />
       <p>&copy; 2024 João Matos.</p>
