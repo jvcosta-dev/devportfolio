@@ -1,25 +1,9 @@
-import { useTranslations } from "next-intl";
-import Page from "../../../components/ui/Page";
-import Title from "../../../components/ui/Title";
-import Skills from "../../../components/Skills";
-import Image from "next/image";
+import Skills from "../Skills";
+import Section from "../ui/Section";
 
-export default function About() {
-  const t = useTranslations();
+export default function AboutSection() {
   return (
-    <Page>
-      <div className="flex flex-col items-center justify-center gap-6">
-        <Image
-          src={"/pfp.png"}
-          alt="João Matos"
-          width={768}
-          height={768}
-          className="object-cover w-96 h-96 rounded-full"
-          priority
-        />
-        <Title>João Matos</Title>
-        <h2 className="text-xl">{t("HomePage.h1")}</h2>
-      </div>
+    <Section id="About">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-6">
         <Skills
           title="soft"
@@ -47,6 +31,6 @@ export default function About() {
         />
         <Skills title="education" itens={["computert"]} />
       </div>
-    </Page>
+    </Section>
   );
 }
