@@ -1,14 +1,16 @@
 {
-  "HomePage": {
-    "title": "Work Projects",
-    "description": "João Matos Selected Work Projects",
-    "h1": " ux/ui developer from Brazil focused on creating user-centered digital experiences — currently avaiable for work."
+  "about": {
+    "introduction": "Hi, I'm João Matos: A UI/UX Developer from Brazil.",
+    "description": "I create user-friendly digital interfaces and develop functional websites to support businesses."
+  },
+  "sectionTitles": {
+    "projects": "Projects"
   },
   "NavbarLinks": {
     "home": "Home",
     "work": "Work",
-    "about": "About",
-    "contact-call": "Get In Touch"
+    "about": "About Me",
+    "contact-call": "Let's Chat"
   },
   "projects": {
     "link": "More Info",
@@ -47,5 +49,9 @@
     "uxdesign": "UX Design Google Career Certificates",
     "softwareeng": "Software Engineering Unicesumar",
     "computert": "Computer Technician for Internet Jul 2024 FIEC"
+  },
+  "status": {
+    "available": "I am currently available for work",
+    "busy": "I am currently working and have no availability"
   }
 }

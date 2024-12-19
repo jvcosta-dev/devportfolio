@@ -1,13 +1,15 @@
 {
-  "HomePage": {
-    "title": "Projetos de Trabalho",
-    "description": "Projetos Selecionados de João Matos",
-    "h1": "Desenvolvedor UX/UI focado em criar experiências digitais centradas no usuário — atualmente disponível para trabalho."
+  "about": {
+    "introduction": "Hi, I'm João Matos: A UI/UX Developer from Brazil.",
+    "description": "Eu crio interfaces digitais intuitivas e desenvolvo sites funcionais para apoiar negócios."
+  },
+  "sectionTitles": {
+    "projects": "Projetos"
   },
   "NavbarLinks": {
     "home": "Início",
     "work": "Trabalho",
-    "about": "Sobre",
+    "about": "Sobre Mim",
     "contact-call": "Entre em Contato"
   },
   "projects": {
@@ -47,5 +49,9 @@
     "uxdesign": "UX Design Google Career Certificates",
     "softwareeng": "Engenharia de Software Unicesumar",
     "computert": "Técnico Informática para Internet Jul 2024 FIEC"
+  },
+  "status": {
+    "available": "Estou disponível para trabalho no momento",
+    "busy": "Estou trabalhando no momento e não tenho disponibilidade"
   }
 }
