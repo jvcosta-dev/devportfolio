@@ -1,15 +1,19 @@
 {
   "about": {
-    "introduction": "Hi, I'm João Matos: A UI/UX Developer from Brazil.",
-    "description": "Eu crio interfaces digitais intuitivas e desenvolvo sites funcionais para apoiar negócios."
+    "introduction": "Olá, Sou João Matos: Um Desenvolvedor UI/UX.",
+    "description": "Eu crio interfaces digitais intuitivas e desenvolvo sites funcionais para apoiar negócios.",
+    "alt-introduction": "Vamos Trabalhar Juntos.",
+    "alt-description": "Me envie uma mensagem"
   },
   "sectionTitles": {
-    "projects": "Projetos"
+    "projects": "Projetos",
+    "skills": "Competências",
+    "contact": "Contato"
   },
   "NavbarLinks": {
     "home": "Início",
     "work": "Trabalho",
-    "about": "Sobre Mim",
+    "skills": "Competências",
     "contact-call": "Entre em Contato"
   },
   "projects": {
@@ -53,5 +57,8 @@
   "status": {
     "available": "Estou disponível para trabalho no momento",
     "busy": "Estou trabalhando no momento e não tenho disponibilidade"
+  },
+  "misc": {
+    "copied": "Copiado"
   }
 }

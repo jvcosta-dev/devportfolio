@@ -1,15 +1,19 @@
 {
   "about": {
     "introduction": "Hi, I'm João Matos: A UI/UX Developer from Brazil.",
-    "description": "I create user-friendly digital interfaces and develop functional websites to support businesses."
+    "description": "I create user-friendly digital interfaces and develop functional websites to support businesses.",
+    "alt-introduction": "Need My Work?",
+    "alt-description": "Send me a message"
   },
   "sectionTitles": {
-    "projects": "Projects"
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
   },
   "NavbarLinks": {
     "home": "Home",
     "work": "Work",
-    "about": "About Me",
+    "skills": "Skills",
     "contact-call": "Let's Chat"
   },
   "projects": {
@@ -53,5 +57,8 @@
   "status": {
     "available": "I am currently available for work",
     "busy": "I am currently working and have no availability"
+  },
+  "misc": {
+    "copied": "Copied"
   }
 }
