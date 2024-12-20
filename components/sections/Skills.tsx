@@ -1,10 +1,17 @@
+import Image from "next/image";
 import Skills from "../Skills";
 import Section from "../ui/Section";
+import Title from "../ui/Title";
+import ContactButton from "../ui/ContactButton";
+import { useTranslations } from "next-intl";
+import { Copy } from "lucide-react";
+import CopyText from "../ui/CopyText";
 
-export default function AboutSection() {
+export default function SkillsSection() {
+  const t = useTranslations();
   return (
-    <Section id="About">
-      <div className="flex flex-col lg:flex-row lg:justify-between gap-6">
+    <Section id="Skills" title="skills">
+      <div className="flex flex-col md:flex-row md:justify-between gap-6">
         <Skills
           title="soft"
           itens={["team", "comm", "ps", "creativity", "sm", "we"]}
@@ -15,14 +22,7 @@ export default function AboutSection() {
         />
         <Skills
           title="technical"
-          itens={[
-            "Figma",
-            "CSS + HTML",
-            "JavaScript",
-            "TypeScript",
-            "Reactjs",
-            "Nextjs",
-          ]}
+          itens={["Figma", "CSS + HTML", "JavaScript + Typescript", "Reactjs"]}
           noTranslateSkills
         />
         <Skills

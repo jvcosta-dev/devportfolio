@@ -30,7 +30,7 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
         </Link>
         <nav className="hidden sm:flex gap-4 items-center">
           <NavLink href={`Work`} label={t("work")} />
-          <NavLink href={`About`} label={t("about")} />
+          <NavLink href={`Skills`} label={t("skills")} />
           <ContactButton />
         </nav>
         <button
@@ -43,7 +43,7 @@ const Navbar: FunctionComponent<NavbarProps> = () => {
       {isOpen && (
         <nav className="sm:hidden w-full fixed top-20 flex flex-col p-6 gap-2 bg-background">
           <NavLink href={`Work`} label={t("work")} />
-          <NavLink href={`About`} label={t("about")} />
+          <NavLink href={`Skills`} label={t("skills")} />
           <a
             href="mailto:victor.matos.costa.dev@gmail.com"
             className="font-black text-xl"
