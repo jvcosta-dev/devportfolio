@@ -20,10 +20,9 @@ export default function HiSection() {
           priority
         />
         <div className="flex flex-col gap-4">
-          <AvailabilityStatus available />
           <Title>{t("about.introduction")}</Title>
           <p className="text-xl">{t("about.description")}</p>
-          <ContactButton />
+          <AvailabilityStatus available />
         </div>
       </div>
     </Section>

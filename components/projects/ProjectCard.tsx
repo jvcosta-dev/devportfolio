@@ -15,10 +15,10 @@ const ProjectCard: FunctionComponent<Props> = ({ project }) => {
   return (
     <Link
       href={`/work/${project.href}`}
-      className="w-full flex flex-col-reverse md:flex-row md:items-center md:gap-6 md:pl-12 rounded-xl"
+      className="w-full flex flex-col-reverse lg:flex-row lg:items-center lg:gap-6 lg:pl-12 rounded-xl"
       style={{ background: project.bgColor, color: project.color || "inherit" }}
     >
-      <div className="flex flex-col gap-2 p-4 md:p-0">
+      <div className="w-full flex flex-col gap-2 p-4 lg:p-0">
         <div>
           {project.tags.map((tag, i) => (
             <span key={i} className="text-inherit">
@@ -31,6 +31,9 @@ const ProjectCard: FunctionComponent<Props> = ({ project }) => {
         </h2>
 
         <p>{t(`projects.${project.name}.description`)}</p>
+        <button className="w-full sm:w-max px-4 py-2 font-black bg-primary rounded-lg">
+          {t("projects.link")}
+        </button>
       </div>
       <Image
         alt={`${project.name}.name img`}
@@ -38,7 +41,7 @@ const ProjectCard: FunctionComponent<Props> = ({ project }) => {
         width={1280}
         height={768}
         priority
-        className="bg-slate-400 w-full h-64 md:h-80 xl:h-96 aspect-auto rounded-xl object-cover"
+        className="w-full h-80 md:h-96 xl:h-[432px] aspect-auto rounded-xl object-contain lg:object-cover"
       />
     </Link>
   );

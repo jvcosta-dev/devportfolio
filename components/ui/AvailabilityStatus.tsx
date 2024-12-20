@@ -13,10 +13,10 @@ const AvailabilityStatus: FunctionComponent<AvailabilityStatusProps> = ({
     <div className="flex items-center gap-2">
       <div
         className={`${
-          available ? "bg-green-500" : "bg-red-500"
+          available ? "bg-green-700" : "bg-red-500"
         } h-6 w-6 rounded-full animate-pulse`}
       />
-      <p className={`${available ? "text-green-500" : "text-red-500"} text-xl`}>
+      <p className={`${available ? "text-green-700" : "text-red-500"} text-xl`}>
         {available ? t("available") : t("busy")}.
       </p>
     </div>
